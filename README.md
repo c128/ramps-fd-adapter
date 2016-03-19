@@ -1,16 +1,18 @@
-RAMPS-FD LCD adapter
 
-- wifi module working as a web server: https://github.com/luc-github/ESP8266 or transparent bridge: https://github.com/beckdac/ESP8266-transparent-bridge
+RAMPS-FD lcd adapter with wifi module esp8266 
 
-- Precompiled firmware for esp8266 esp-01 with 512k configured with transparent bridge and 500,000 baud in my reposity: https://github.com/c128/wifi-transparent-bridge-backup-for-3dprinter
+can work with web server as https://github.com/luc-github/ESP8266 or transparent bridge as https://github.com/beckdac/ESP8266-transparent-bridge 
 
-- compatibility with Full Graphic LCD RepRapDiscount Smart Controller
+you can download preconfigured transparent bridge with 500.000 baud in this my repository
+
+https://github.com/c128/wifi-transparent-bridge-backup-for-3dprinter
+
+LCD sopport is standard RepRapDiscount Full Graphic Smart Controller
 
 http://reprap.org/wiki/RepRapDiscount_Full_Graphic_Smart_Controller
 
-- Memory Support 24LC256 
+this adapter have 24lc256 memory 
 
-startup problem solved for Arduino DUE and also can check the status of the reset directly from esp8266
-
+with this adapter arduino due boot reset  problem is resolved and is possible to control reset status with esp8266
 
 
